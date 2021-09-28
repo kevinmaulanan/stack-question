@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">belajar_java_ndp</string>
+    <string name="IconTitle" />
+    <string name="_2021_12_01">2021–12–01</string>
+    <string name="kevin_maulana">Kevin Maulana</string>
+    <string name="rangking_pengguna">Rangking Pengguna</string>
+    <string name="image_profile">Image Profile</string>
+    <string name="rank_1">Rank 1</string>
+    <string name="icon_like">Icon Like</string>
+    <string name="_200_suka">200 Suka</string>
+    <string name="icon_comment">Icon Comment</string>
+    <string name="icont_start">Icont Start</string>
+    <string name="apakah_yang_dimaksud_dengan_ekonomi">Apakah yang dimaksud dengan ekonomi?</string>
+    <string name="list_pertanyaan">List Pertanyaan </string>
+    <string name="tugas_kevin">Tugas Kevin</string>
+
+    <string name="notification">
+        <b>Kevin Maulana</b> menyukai video <b>Pendidikan Ekonomi</b> yang anda bagikan
+    </string>
+    <string name="pemberitahuan">Pemberitahuan</string>
+    <string name="baru_saja">Baru Saja</string>
+    <string name="tambah_pertanyaan">Tambah Pertanyaan</string>
+    <string name="tulis_pertanyaan">
+        <p>
+            Tulis pertanyaanmu disini (pertanyaan simple dan jelas, lebih cepat terjawab)
+        </p>
+    </string>
+</resources>
