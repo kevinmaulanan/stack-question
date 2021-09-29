@@ -20,6 +20,7 @@
         <entry key="..\:/Users/THINKPAD/AndroidStudioProjects/belajar_java_ndp/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/THINKPAD/AndroidStudioProjects/belajar_java_ndp/app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.18854166666666666" />
+        <entry key="app/src/main/res/layout/activity_filter.xml" value="0.30963517305893357" />
         <entry key="app/src/main/res/layout/activity_kumpulan_pertanyaan.xml" value="0.17239583333333333" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.17239583333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17239583333333333" />
@@ -29,7 +30,7 @@
         <entry key="app/src/main/res/layout/activity_rangking_user.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_tambah_pertanyaan.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_hal1.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_hal2.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_hal2.xml" value="0.33" />
         <entry key="app/src/main/res/menu/my_navigation_items.xml" value="0.17239583333333333" />
       </map>
     </option>

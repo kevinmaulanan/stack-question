@@ -30,12 +30,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/persegi_bot" />
 
+
     <ScrollView
         android:layout_width="376dp"
         android:layout_height="473dp"
-        app:layout_constraintBottom_toBottomOf="@+id/bottomNavigationView"
+        android:layout_marginTop="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:layout_constraintVertical_bias="0.0">
@@ -476,7 +478,6 @@
 
     </ScrollView>
 
-
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image"
         android:layout_width="75dp"
@@ -508,7 +509,6 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/roboto_regular"
         android:text="Nama:"
         android:textSize="8pt"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
@@ -556,6 +556,7 @@
         app:srcCompat="@drawable/star" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
