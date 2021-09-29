@@ -985,13 +985,14 @@
 
 
         </LinearLayout>
+
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            app:menu="@menu/my_navigation_items"
+            android:layout_gravity="bottom"
             android:layout_weight="1"
-            android:layout_gravity="bottom"/>
+            app:menu="@menu/my_navigation_items" />
     </RelativeLayout>
 
 
