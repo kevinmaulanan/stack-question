@@ -1,4 +1,4 @@
-package com.example.desi;
+package com.example.belajar_java_ndp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
