@@ -21,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
     Button pindahActivity3;
     Button pindahActivity4;
     Button pindahActivity5;
+    Button pindahActivity6;
+    Button pindahActivity7;
+    Button pindahActivity8;
+    Button pindahActivity9;
 
 
 
@@ -36,6 +40,10 @@ public class MainActivity extends AppCompatActivity {
         pindahActivity3 = findViewById(R.id.btnSubmit3); // Untuk List Pemberitahuan
         pindahActivity4 = findViewById(R.id.btnSubmit4); // Untuk List Pemberitahuan
         pindahActivity5 = findViewById(R.id.btnSubmit5); // Untuk Ganti Password
+        pindahActivity6 = findViewById(R.id.btnSubmit6); // Untuk pengaturan
+        pindahActivity7 = findViewById(R.id.btnSubmit7); // Untuk Ganti Nama
+        pindahActivity8 = findViewById(R.id.btnSubmit8); // Untuk Detail Pengguna
+        pindahActivity9 = findViewById(R.id.btnSubmit9); // Untuk Ganti No telp
 
         // Function Rangking Pengguna Ketika di klik
         pindahActivity1.setOnClickListener(new View.OnClickListener() {
@@ -66,6 +74,15 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Function Pemberitahuan Ketika di klik
+        pindahActivity4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent TambahPertanyaan = new Intent(MainActivity.this, TambahPertanyaan.class);
+                startActivity(TambahPertanyaan);
+            }
+        });
+
+        // Function Pemberitahuan Ketika di klik
         pindahActivity5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,6 +90,43 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(GantiPassword);
             }
         });
+
+        // Function Pemberitahuan Ketika di klik
+        pindahActivity6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Pengaturan = new Intent(MainActivity.this, Pengaturan.class);
+                startActivity(Pengaturan);
+            }
+        });
+
+        // Function Pemberitahuan Ketika di klik
+        pindahActivity7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent GantiNama = new Intent(MainActivity.this, gantinama.class);
+                startActivity(GantiNama);
+            }
+        });
+
+        // Function Pemberitahuan Ketika di klik
+        pindahActivity8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent DetailPengguna = new Intent(MainActivity.this, detailpengguna.class);
+                startActivity(DetailPengguna);
+            }
+        });
+
+        // Function Pemberitahuan Ketika di klik
+        pindahActivity9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent GantiNotelp = new Intent(MainActivity.this, gantinotelpon.class);
+                startActivity(GantiNotelp);
+            }
+        });
+
 
 
     }

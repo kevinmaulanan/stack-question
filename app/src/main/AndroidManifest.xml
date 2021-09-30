@@ -21,12 +21,11 @@
         <activity
             android:name=".Pemberitahuan"
             android:exported="true" />
+
         <activity
-            android:name=".List_Pertanyaan"
+            android:name=".RangkingPengguna"
             android:exported="true" />
-        <activity
-            android:name=".rangking_pengguna"
-            android:exported="true" />
+
         <activity
             android:name=".login"
             android:exported="true" />
@@ -34,6 +33,23 @@
         <activity
             android:name=".gantipassword"
             android:exported="true" />
+
+        <activity
+            android:name=".Pengaturan"
+            android:exported="true" />
+
+        <activity
+            android:name=".gantinama"
+            android:exported="true" />
+
+        <activity
+            android:name=".detailpengguna"
+            android:exported="true" />
+
+        <activity
+            android:name=".gantinotelpon"
+            android:exported="true" />
+
 
         <activity android:name=".MainActivity">
             <intent-filter>

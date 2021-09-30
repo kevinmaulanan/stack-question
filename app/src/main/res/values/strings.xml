@@ -27,4 +27,8 @@
     </string>
     <string name="upload_pertanyaanmu">Upload Pertanyaanmu</string>
     <string name="ganti_password">Ganti Password</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="gantinama">GantiNama</string>
+    <string name="DetailPengguna">DetailPengguna</string>
+    <string name="GantiNotelp">GantiNotelp</string>
 </resources>

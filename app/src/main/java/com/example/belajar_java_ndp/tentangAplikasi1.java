@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.belajar_java_ndp.R;
+
 public class tentangAplikasi1 extends AppCompatActivity {
 
     @Override
