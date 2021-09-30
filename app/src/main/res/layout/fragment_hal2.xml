@@ -90,7 +90,9 @@
         android:id="@+id/scrollView2"
         android:layout_width="400dp"
         android:layout_height="402dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView154">
 
@@ -98,19 +100,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+
             <ImageView
                 android:id="@+id/imageView15"
                 android:layout_width="407dp"
                 android:layout_height="154dp"
-                android:src="@drawable/persegi_hitam"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView154" />
-
-            <ImageView
-                android:id="@+id/imageView154"
-                android:layout_width="390dp"
-                android:layout_height="155dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
                 android:src="@drawable/persegi_hitam"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView17" />
@@ -142,22 +138,10 @@
                 android:src="@drawable/komen_kotak"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView16"
                 app:layout_constraintEnd_toEndOf="@+id/imageView16"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="0.21"
                 app:layout_constraintStart_toStartOf="@+id/imageView16"
                 app:layout_constraintTop_toTopOf="@+id/imageView16"
-                app:layout_constraintVertical_bias="0.412" />
-
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="392dp"
-                android:layout_height="128dp"
-                android:src="@drawable/komen_kotak"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView154"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/imageView154"
-                app:layout_constraintTop_toTopOf="@+id/imageView154"
-                app:layout_constraintVertical_bias="0.407" />
+                app:layout_constraintVertical_bias="0.439" />
 
             <ImageView
                 android:id="@+id/imag5224"
@@ -213,17 +197,6 @@ Naik Haji Bagi yang Sudah Mampu."
                 app:layout_constraintTop_toTopOf="@+id/imageView7"
                 app:layout_constraintVertical_bias="0.981" />
 
-
-            <TextView
-                android:id="@+id/tavss0"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="152dp"
-                android:text="Comment"
-                app:layout_constraintEnd_toEndOf="@+id/imageView10"
-                app:layout_constraintHorizontal_bias="0.405"
-                app:layout_constraintStart_toStartOf="@+id/imageView16"
-                app:layout_constraintTop_toTopOf="@+id/imageView16" />
 
             <TextView
                 android:id="@+id/tsdw10"
@@ -286,11 +259,9 @@ Naik Haji Bagi yang Sudah Mampu."
                 android:text="20.10.2021"
                 android:textSize="4pt"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView16"
-                app:layout_constraintEnd_toEndOf="@+id/imageView10"
-                app:layout_constraintHorizontal_bias="0.212"
-                app:layout_constraintStart_toStartOf="@+id/imageView10"
                 app:layout_constraintTop_toTopOf="@+id/imageView16"
-                app:layout_constraintVertical_bias="0.386" />
+                app:layout_constraintVertical_bias="0.386"
+                tools:layout_editor_absoluteX="72dp" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -316,42 +287,11 @@ Naik Haji Bagi yang Sudah Mampu."
                 android:id="@+id/ima12"
                 android:layout_width="16dp"
                 android:layout_height="14dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="112dp"
                 android:src="@drawable/ic_like"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView7"
-                app:layout_constraintEnd_toEndOf="@+id/imageView7"
-                app:layout_constraintHorizontal_bias="0.061"
                 app:layout_constraintStart_toStartOf="@+id/imageView7"
-                app:layout_constraintTop_toTopOf="@+id/imageView7"
-                app:layout_constraintVertical_bias="1.0" />
-
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/profe"
-                android:layout_width="47dp"
-                android:layout_height="44dp"
-                android:src="@drawable/profil"
-                app:civ_border_color="#FF000000"
-                app:civ_border_width="2dp"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView10"
-                app:layout_constraintEnd_toEndOf="@+id/imageView10"
-                app:layout_constraintHorizontal_bias="0.034"
-                app:layout_constraintStart_toStartOf="@+id/imageView10"
-                app:layout_constraintTop_toTopOf="@+id/imageView10"
-                app:layout_constraintVertical_bias="0.107" />
-
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Patrik Star"
-                android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView154"
-                app:layout_constraintEnd_toEndOf="@+id/imageView154"
-                app:layout_constraintHorizontal_bias="0.2"
-                app:layout_constraintStart_toStartOf="@+id/imageView154"
-                app:layout_constraintTop_toTopOf="@+id/imageView154"
-                app:layout_constraintVertical_bias="0.14" />
+                app:layout_constraintTop_toTopOf="@+id/imageView7" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -362,119 +302,20 @@ Naik Haji Bagi yang Sudah Mampu."
                 android:textColor="@color/black"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/imageView10"
-                app:layout_constraintHorizontal_bias="0.236"
-                app:layout_constraintStart_toStartOf="@+id/imageView10"
-                app:layout_constraintTop_toTopOf="@+id/imageView16" />
-
-            <TextView
-                android:id="@+id/tex47"
-                android:layout_width="49dp"
-                android:layout_height="10dp"
-                android:text="20.10.2021"
-                android:textSize="4pt"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView154"
-                app:layout_constraintEnd_toEndOf="@+id/imageView154"
-                app:layout_constraintHorizontal_bias="0.173"
-                app:layout_constraintStart_toStartOf="@+id/imageView154"
-                app:layout_constraintTop_toTopOf="@+id/imageView154"
-                app:layout_constraintVertical_bias="0.31" />
-
-            <TextView
-                android:id="@+id/texttw8"
-                android:layout_width="314dp"
-                android:layout_height="43dp"
-                android:text="WKWKWKWKWKWKWKWKWKWKWKWKWKW"
-                android:textColor="@color/black"
-                android:textSize="5pt"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView10"
-                app:layout_constraintEnd_toEndOf="@+id/imageView10"
-                app:layout_constraintHorizontal_bias="0.756"
-                app:layout_constraintStart_toStartOf="@+id/imageView10"
-                app:layout_constraintTop_toTopOf="@+id/imageView10"
-                app:layout_constraintVertical_bias="0.623" />
-
-            <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="16dp"
-                android:layout_height="14dp"
-                android:src="@drawable/ic_like"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView10"
-                app:layout_constraintEnd_toEndOf="@+id/imageView10"
-                app:layout_constraintHorizontal_bias="0.031"
-                app:layout_constraintStart_toStartOf="@+id/imageView10"
-                app:layout_constraintTop_toTopOf="@+id/imageView10"
-                app:layout_constraintVertical_bias="0.938" />
-
-            <TextView
-                android:id="@+id/textView10"
-                android:layout_width="11dp"
-                android:layout_height="16dp"
-                android:text="0"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView10"
-                app:layout_constraintEnd_toEndOf="@+id/imageView10"
-                app:layout_constraintHorizontal_bias="0.073"
-                app:layout_constraintStart_toStartOf="@+id/imageView10"
-                app:layout_constraintTop_toTopOf="@+id/imageView10"
-                app:layout_constraintVertical_bias="0.946" />
-
-            <TextView
-                android:id="@+id/textView10"
-                android:layout_width="11dp"
-                android:layout_height="16dp"
-                android:text="0"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView10"
-                app:layout_constraintEnd_toEndOf="@+id/imageView10"
-                app:layout_constraintHorizontal_bias="0.073"
-                app:layout_constraintStart_toStartOf="@+id/imageView10"
-                app:layout_constraintTop_toTopOf="@+id/imageView10"
-                app:layout_constraintVertical_bias="0.946" />
-
-            <ImageView
-                android:id="@+id/imageView24"
-                android:layout_width="21dp"
-                android:layout_height="17dp"
-                android:layout_marginTop="152dp"
-                app:layout_constraintEnd_toEndOf="@+id/imageView10"
-                app:layout_constraintHorizontal_bias="0.261"
-                app:layout_constraintStart_toStartOf="@+id/imageView16"
                 app:layout_constraintTop_toTopOf="@+id/imageView16"
-                app:srcCompat="@drawable/ic_komen" />
+                tools:layout_editor_absoluteX="69dp" />
+
 
             <TextView
                 android:id="@+id/textw10"
                 android:layout_width="11dp"
                 android:layout_height="16dp"
+                android:layout_marginTop="108dp"
                 android:text="0"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView10"
                 app:layout_constraintEnd_toEndOf="@+id/imageView10"
-                app:layout_constraintHorizontal_bias="0.342"
+                app:layout_constraintHorizontal_bias="0.131"
                 app:layout_constraintStart_toStartOf="@+id/imageView10"
-                app:layout_constraintTop_toTopOf="@+id/imageView10"
-                app:layout_constraintVertical_bias="1.0" />
-
-            <TextView
-                android:id="@+id/textw10"
-                android:layout_width="11dp"
-                android:layout_height="16dp"
-                android:layout_marginStart="124dp"
-                android:layout_marginTop="152dp"
-                android:text="0"
-                app:layout_constraintStart_toStartOf="@+id/imageView16"
-                app:layout_constraintTop_toTopOf="@+id/imageView16" />
-
-            <TextView
-                android:id="@+id/texzs0"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Comment"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView10"
-                app:layout_constraintEnd_toEndOf="@+id/imageView10"
-                app:layout_constraintHorizontal_bias="0.383"
-                app:layout_constraintStart_toStartOf="@+id/imageView10"
-                app:layout_constraintTop_toTopOf="@+id/imageView10"
-                app:layout_constraintVertical_bias="1.0" />
-
+                app:layout_constraintTop_toTopOf="@+id/imageView10" />
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/profile_i12se"
@@ -484,11 +325,9 @@ Naik Haji Bagi yang Sudah Mampu."
                 app:civ_border_color="#FF000000"
                 app:civ_border_width="2dp"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView16"
-                app:layout_constraintEnd_toEndOf="@+id/imageView10"
-                app:layout_constraintHorizontal_bias="0.049"
-                app:layout_constraintStart_toStartOf="@+id/imageView10"
                 app:layout_constraintTop_toTopOf="@+id/imageView16"
-                app:layout_constraintVertical_bias="0.309" />
+                app:layout_constraintVertical_bias="0.309"
+                tools:layout_editor_absoluteX="16dp" />
 
             <ImageView
                 android:id="@+id/imageView17"
@@ -513,6 +352,29 @@ Naik Haji Bagi yang Sudah Mampu."
                 app:layout_constraintStart_toStartOf="@+id/imageView17"
                 app:layout_constraintTop_toTopOf="@+id/imageView17"
                 app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="112dp"
+                android:text="0"
+                app:layout_constraintEnd_toEndOf="@+id/imageView7"
+                app:layout_constraintHorizontal_bias="0.122"
+                app:layout_constraintStart_toStartOf="@+id/imageView7"
+                app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="128dp"
+                android:src="@drawable/ic_like"
+                app:layout_constraintEnd_toStartOf="@+id/textView8"
+                app:layout_constraintHorizontal_bias="0.666"
+                app:layout_constraintStart_toStartOf="@+id/imageView10"
+                app:layout_constraintTop_toBottomOf="@+id/imageView15" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -567,6 +429,63 @@ Naik Haji Bagi yang Sudah Mampu."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/my_navigation_items" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="19dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic_like"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="@+id/imageView154"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="@+id/imageView154"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="18dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="104dp"
+        android:src="@drawable/ic_komen"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:text="Comment"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
