@@ -53,7 +53,9 @@
             android:exported="true" />
         <activity
             android:name=".gantinotelpon"
-            android:exported="true" />
+            android:exported="true" /><activity
+        android:name=".pilih_view"
+        android:exported="true" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

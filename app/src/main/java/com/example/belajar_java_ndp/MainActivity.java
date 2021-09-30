@@ -127,6 +127,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(GantiNotelp);
             }
         });
+        pindahActivity10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent pilih_view = new Intent(MainActivity.this, pilih_view.class);
+                startActivity(pilih_view);
+            }
+        });
 
 
 
