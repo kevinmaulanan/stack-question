@@ -3,15 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/NONGSA DIGITAL PARK/ANDROID STUDIO/Tugas/stack-question/app/src/main/res/layout/activity_bantuan.xml" value="0.16" />
         <entry key="..\:/NONGSA DIGITAL PARK/ANDROID STUDIO/Tugas/stack-question/app/src/main/res/layout/activity_daftar_favorit_1.xml" value="0.15" />
         <entry key="..\:/NONGSA DIGITAL PARK/ANDROID STUDIO/Tugas/stack-question/app/src/main/res/layout/activity_detailpengguna.xml" value="0.18" />
         <entry key="..\:/NONGSA DIGITAL PARK/ANDROID STUDIO/Tugas/stack-question/app/src/main/res/layout/activity_gantinama.xml" value="0.1814814814814815" />
         <entry key="..\:/NONGSA DIGITAL PARK/ANDROID STUDIO/Tugas/stack-question/app/src/main/res/layout/activity_gantinotelpon.xml" value="0.18" />
-        <entry key="..\:/NONGSA DIGITAL PARK/ANDROID STUDIO/Tugas/stack-question/app/src/main/res/layout/activity_gantipassword.xml" value="0.1" />
+        <entry key="..\:/NONGSA DIGITAL PARK/ANDROID STUDIO/Tugas/stack-question/app/src/main/res/layout/activity_gantipassword.xml" value="0.25" />
+        <entry key="..\:/NONGSA DIGITAL PARK/ANDROID STUDIO/Tugas/stack-question/app/src/main/res/layout/activity_keluar1.xml" value="0.16" />
+        <entry key="..\:/NONGSA DIGITAL PARK/ANDROID STUDIO/Tugas/stack-question/app/src/main/res/layout/activity_kumpulan_pertanyaan.xml" value="0.1814814814814815" />
         <entry key="..\:/NONGSA DIGITAL PARK/ANDROID STUDIO/Tugas/stack-question/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/NONGSA DIGITAL PARK/ANDROID STUDIO/Tugas/stack-question/app/src/main/res/layout/activity_pemberitahuan.xml" value="0.2" />
         <entry key="..\:/NONGSA DIGITAL PARK/ANDROID STUDIO/Tugas/stack-question/app/src/main/res/layout/activity_pengaturan.xml" value="0.16" />
+        <entry key="..\:/NONGSA DIGITAL PARK/ANDROID STUDIO/Tugas/stack-question/app/src/main/res/layout/activity_pertanyaan_jawaban1.xml" value="0.18" />
         <entry key="..\:/NONGSA DIGITAL PARK/ANDROID STUDIO/Tugas/stack-question/app/src/main/res/layout/activity_rangking_pengguna.xml" value="0.2" />
+        <entry key="..\:/NONGSA DIGITAL PARK/ANDROID STUDIO/Tugas/stack-question/app/src/main/res/layout/activity_tentang_aplikasi1.xml" value="0.1814814814814815" />
         <entry key="..\:/Pelajaran/Nongsa/^Project/belajar_java_ndp/app/src/main/res/drawable/dropdown.xml" value="0.17447916666666666" />
         <entry key="..\:/Pelajaran/Nongsa/^Project/belajar_java_ndp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Pelajaran/Nongsa/^Project/belajar_java_ndp/app/src/main/res/drawable/rounded_edge.xml" value="0.18645833333333334" />

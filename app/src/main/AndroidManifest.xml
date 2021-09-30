@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Belajar_java_ndp">
         <activity
+            android:name=".Bantuan"
+            android:exported="true" />
+        <activity
             android:name=".RangkingUser"
             android:exported="true" />
         <activity
@@ -21,35 +24,27 @@
         <activity
             android:name=".Pemberitahuan"
             android:exported="true" />
-
         <activity
             android:name=".RangkingPengguna"
             android:exported="true" />
-
         <activity
             android:name=".login"
             android:exported="true" />
-
         <activity
             android:name=".gantipassword"
             android:exported="true" />
-
         <activity
             android:name=".Pengaturan"
             android:exported="true" />
-
         <activity
             android:name=".gantinama"
             android:exported="true" />
-
         <activity
             android:name=".detailpengguna"
             android:exported="true" />
-
         <activity
             android:name=".gantinotelpon"
             android:exported="true" />
-
 
         <activity android:name=".MainActivity">
             <intent-filter>
