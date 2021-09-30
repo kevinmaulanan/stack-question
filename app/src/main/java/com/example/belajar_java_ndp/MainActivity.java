@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     Button pindahActivity7;
     Button pindahActivity8;
     Button pindahActivity9;
-
+    Button pindahActivity10;
 
 
     @Override
@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         pindahActivity7 = findViewById(R.id.btnSubmit7); // Untuk Ganti Nama
         pindahActivity8 = findViewById(R.id.btnSubmit8); // Untuk Detail Pengguna
         pindahActivity9 = findViewById(R.id.btnSubmit9); // Untuk Ganti No telp
+        pindahActivity10 = findViewById(R.id.btnSubmit10);
 
         // Function Rangking Pengguna Ketika di klik
         pindahActivity1.setOnClickListener(new View.OnClickListener() {
@@ -126,6 +127,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(GantiNotelp);
             }
         });
+
 
 
 
