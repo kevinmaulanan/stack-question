@@ -35,6 +35,10 @@
             android:name=".gantipassword"
             android:exported="true" />
 
+        <activity
+            android:name=".Pengaturan"
+            android:exported="true" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

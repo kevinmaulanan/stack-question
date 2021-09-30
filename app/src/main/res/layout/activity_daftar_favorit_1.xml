@@ -84,11 +84,12 @@
                         android:id="@+id/editTextTextPersonName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textStyle="bold"
                         android:layout_weight="1"
                         android:ems="15"
                         android:inputType="textPersonName"
-                        android:text="Pertanyaan dan Jawaban" />
+                        android:text="Pertanyaan dan Jawaban"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                 </LinearLayout>
 
@@ -102,11 +103,12 @@
                         android:id="@+id/editTextTextPersonName3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textStyle="bold"
                         android:layout_weight="1"
                         android:ems="15"
                         android:inputType="textPersonName"
-                        android:text="Video" />
+                        android:text="Video"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -118,11 +120,12 @@
                         android:id="@+id/editTextTextPersonName4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textStyle="bold"
                         android:layout_weight="1"
                         android:ems="15"
                         android:inputType="textPersonName"
-                        android:text="E-Book" />
+                        android:text="E-Book"
+                        android:textStyle="bold"
+                        tools:ignore="TouchTargetSizeCheck" />
                 </LinearLayout>
 
             </LinearLayout>

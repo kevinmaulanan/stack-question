@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     Button pindahActivity3;
     Button pindahActivity4;
     Button pindahActivity5;
+    Button pindahActivity6;
 
 
 
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         pindahActivity3 = findViewById(R.id.btnSubmit3); // Untuk List Pemberitahuan
         pindahActivity4 = findViewById(R.id.btnSubmit4); // Untuk List Pemberitahuan
         pindahActivity5 = findViewById(R.id.btnSubmit5); // Untuk Ganti Password
+        pindahActivity6 = findViewById(R.id.btnSubmit6); // Untuk Ganti pengaturan
 
         // Function Rangking Pengguna Ketika di klik
         pindahActivity1.setOnClickListener(new View.OnClickListener() {
@@ -66,11 +68,29 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Function Pemberitahuan Ketika di klik
+        pindahActivity4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent TambahPertanyaan = new Intent(MainActivity.this, TambahPertanyaan.class);
+                startActivity(TambahPertanyaan);
+            }
+        });
+
+        // Function Pemberitahuan Ketika di klik
         pindahActivity5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent GantiPassword = new Intent(MainActivity.this, gantipassword.class);
                 startActivity(GantiPassword);
+            }
+        });
+
+        // Function Pemberitahuan Ketika di klik
+        pindahActivity6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Pengaturan = new Intent(MainActivity.this, Pengaturan.class);
+                startActivity(Pengaturan);
             }
         });
 
