@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Belajar_java_ndp">
         <activity
+            android:name=".daftar"
+            android:exported="true" />
+        <activity
+            android:name=".selamat_datang"
+            android:exported="true" />
+        <activity
+            android:name=".masuk"
+            android:exported="true" />
+        <activity
+            android:name=".tanpa_akun"
+            android:exported="true" />
+        <activity
             android:name=".tambah_jawaban"
             android:exported="true" />
         <activity
@@ -53,9 +65,16 @@
             android:exported="true" />
         <activity
             android:name=".gantinotelpon"
-            android:exported="true" /><activity
-        android:name=".pilih_view"
-        android:exported="true" />
+            android:exported="true" />
+        <activity
+            android:name=".pilih_view"
+            android:exported="true" />
+        <activity
+            android:name=".filter"
+            android:exported="true" />
+        <activity
+            android:name=".tambah_jawaban"
+            android:exported="true" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

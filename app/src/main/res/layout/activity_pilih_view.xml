@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".pilih_view">
+
     <ImageView
         android:id="@+id/imageView154"
         android:layout_width="390dp"
@@ -256,9 +257,11 @@ Naik Haji Bagi yang Sudah Mampu."
                 android:text="20.10.2021"
                 android:textSize="4pt"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+                app:layout_constraintEnd_toEndOf="@+id/imageView10"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView6"
                 app:layout_constraintTop_toTopOf="@+id/imageView16"
-                app:layout_constraintVertical_bias="0.386"
-                tools:layout_editor_absoluteX="72dp" />
+                app:layout_constraintVertical_bias="0.358" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -290,18 +293,20 @@ Naik Haji Bagi yang Sudah Mampu."
                 app:layout_constraintStart_toStartOf="@+id/imageView7"
                 app:layout_constraintTop_toTopOf="@+id/imageView7" />
 
+
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="56dp"
+                android:layout_marginTop="48dp"
                 android:text="Patrik Star"
                 android:textColor="@color/black"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                app:layout_constraintTop_toTopOf="@+id/imageView16"
-                tools:layout_editor_absoluteX="69dp" />
-
+                app:layout_constraintEnd_toEndOf="@+id/imageView10"
+                app:layout_constraintHorizontal_bias="0.217"
+                app:layout_constraintStart_toStartOf="@+id/imageView10"
+                app:layout_constraintTop_toTopOf="@+id/imageView16" />
 
             <TextView
                 android:id="@+id/textw10"
@@ -318,13 +323,14 @@ Naik Haji Bagi yang Sudah Mampu."
                 android:id="@+id/profile_i12se"
                 android:layout_width="47dp"
                 android:layout_height="44dp"
+                android:layout_marginTop="28dp"
                 android:src="@drawable/profil"
                 app:civ_border_color="#FF000000"
                 app:civ_border_width="2dp"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView16"
-                app:layout_constraintTop_toTopOf="@+id/imageView16"
-                app:layout_constraintVertical_bias="0.309"
-                tools:layout_editor_absoluteX="16dp" />
+                app:layout_constraintEnd_toEndOf="@+id/imageView10"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView15" />
 
             <ImageView
                 android:id="@+id/imageView17"
@@ -373,6 +379,41 @@ Naik Haji Bagi yang Sudah Mampu."
                 app:layout_constraintStart_toStartOf="@+id/imageView10"
                 app:layout_constraintTop_toBottomOf="@+id/imageView15" />
 
+            <TextView
+                android:id="@+id/tavss0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="144dp"
+                android:layout_marginBottom="56dp"
+                android:text="Comment"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+                app:layout_constraintEnd_toEndOf="@+id/imageView10"
+                app:layout_constraintHorizontal_bias="0.419"
+                app:layout_constraintStart_toStartOf="@+id/imageView16"
+                app:layout_constraintTop_toBottomOf="@+id/imageView7"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <ImageView
+                android:id="@+id/imag5224"
+                android:layout_width="21dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="148dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.251"
+                app:layout_constraintStart_toStartOf="@+id/imageView10"
+                app:layout_constraintTop_toBottomOf="@+id/imageView7"
+                app:srcCompat="@drawable/ic_komen" />
+
+            <TextView
+                android:id="@+id/tsdw10"
+                android:layout_width="11dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="144dp"
+                android:text="0"
+                app:layout_constraintEnd_toEndOf="@+id/imageView10"
+                app:layout_constraintHorizontal_bias="0.304"
+                app:layout_constraintStart_toStartOf="@+id/imageView10"
+                app:layout_constraintTop_toBottomOf="@+id/imageView7" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 

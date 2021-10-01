@@ -30,17 +30,31 @@
         <entry key="..\:/Users/THINKPAD/AndroidStudioProjects/belajar_java_ndp/app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.3338541666666667" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.18854166666666666" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/activity_daftar.xml" value="0.17239583333333333" />
         <entry key="app/src/main/res/layout/activity_filter.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_jawaban_view.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_keluar1.xml" value="0.165625" />
         <entry key="app/src/main/res/layout/activity_kumpulan_pertanyaan.xml" value="0.17239583333333333" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.17239583333333333" />
+        <entry key="app/src/main/res/layout/activity_loginwithaccount.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/activity_loginwithoutaccount.xml" value="0.17239583333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_masuk.xml" value="0.17239583333333333" />
         <entry key="app/src/main/res/layout/activity_pemberitahuan.xml" value="0.17239583333333333" />
+        <entry key="app/src/main/res/layout/activity_pengaturan.xml" value="0.16927083333333334" />
+        <entry key="app/src/main/res/layout/activity_pertanyaan_jawaban1.xml" value="0.165625" />
         <entry key="app/src/main/res/layout/activity_pilih_view.xml" value="0.24745762711864408" />
         <entry key="app/src/main/res/layout/activity_rangking_pengguna.xml" value="0.17239583333333333" />
         <entry key="app/src/main/res/layout/activity_rangking_user.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_selamat_datang.xml" value="0.17239583333333333" />
+        <entry key="app/src/main/res/layout/activity_signin.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/activity_singup.xml" value="0.165625" />
         <entry key="app/src/main/res/layout/activity_tambah_jawaban.xml" value="0.286231884057971" />
         <entry key="app/src/main/res/layout/activity_tambah_pertanyaan.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_tanpa_akun.xml" value="0.11666666666666667" />
+        <entry key="app/src/main/res/layout/activity_tentang_aplikasi1.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.17239583333333333" />
         <entry key="app/src/main/res/menu/my_navigation_items.xml" value="0.17239583333333333" />
       </map>
     </option>
