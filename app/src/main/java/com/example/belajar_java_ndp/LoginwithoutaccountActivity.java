@@ -5,13 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.belajar_java_ndp.R;
+
 public class LoginwithoutaccountActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
         setContentView(R.layout.activity_loginwithoutaccount);
     }
 }

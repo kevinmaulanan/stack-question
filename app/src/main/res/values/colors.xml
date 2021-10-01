@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="buttoncol">#0B87E6</color>
     <color name="green">#15880C</color>
+    <color name="blue_light">#15880C</color>
 </resources>
